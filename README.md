@@ -80,3 +80,16 @@ The dataset contains the following features:
 
 ## 📂 Project Structure
 
+📁 Predicting-Health-Insurance-Price/
+│
+├── 📄 README.md
+├── 📊 Health_insurance_cost_dataset.xlsx
+├── 📓 Insurance_price_prediction.ipynb
+└── 📄 predicting-health-insurance-price.pdf
+
+## 🔗 Connect with Me
+
+If you found this project interesting or have any feedback, feel free to connect:
+
+📧 pravindparadkar2003@gmail.com  
+💼 [LinkedIn](https://www.linkedin.com/in/pravinparadkar/)  
