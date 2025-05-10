@@ -1,2 +1,82 @@
-# Predicting_Health_Insurance_Price
-Predicting Health Insurance Price using Machine Learning Linear Regression model.
+# 🏥 Predicting Health Insurance Price
+
+This project aims to predict individual health insurance charges using demographic and health-related features. It uses machine learning techniques to understand and model how various factors influence insurance pricing.
+
+---
+
+## 📌 Problem Statement
+
+Insurance companies need accurate models to determine premium amounts based on customer profiles. This project builds a predictive model to estimate insurance charges using real-world data and regression algorithms.
+
+---
+
+## 📊 Dataset Overview
+
+The dataset contains the following features:
+
+| Feature     | Description                                           |
+|-------------|-------------------------------------------------------|
+| `age`       | Age of the policyholder                               |
+| `sex`       | Gender: male or female                                |
+| `bmi`       | Body Mass Index                                       |
+| `children`  | Number of children covered by the insurance           |
+| `smoking_status`    | Smoking status (yes/no)                               |
+| `location`    | Residential region in the US                          |
+| `health_insurance_price`   | Final insurance cost (target variable)                |
+
+---
+
+## 🛠️ Technologies & Libraries Used
+
+- **Python**
+- **Machine Learning**
+- **Pandas, NumPy** – Data handling and manipulation  
+- **Matplotlib, Seaborn** – Visualization  
+- **Scikit-learn** – Machine Learning modeling  
+- **Google Colab** – Interactive coding environment
+
+---
+
+## 🔍 Project Workflow
+
+1. **Exploratory Data Analysis (EDA)**
+   - Identified columns, shape, datatypes & outliers
+   - Summary statistics for numerical & categorical columns 
+   - Visualized numerical & categorical distribution, correlation between numeric features, and numerical features to check for outliers
+2. **Data Preprocessing**
+   - Handling null values & duplicates
+   - outlier treatment
+   - Encoded categorical variables (`sex`, `smoking_status`, `location`)
+   - Handled multicollinearity and feature interactions
+
+4. **Model Building**
+   - Linear Regression
+   - Decision Tree Regressor
+   - Random Forest Regressor
+
+5. **Model Evaluation**
+   - R² Score
+   - MAE (Mean Absolute Error)
+   - RMSE (Root Mean Squared Error)
+
+---
+
+## 📈 Key Insights
+
+- **Smokers** pay significantly more for insurance than non-smokers.
+- **BMI** is crucial in price prediction, especially when high.
+- **Age** positively correlates with price, especially in older age groups.
+- **Region** and **gender** have minimal impact on pricing.
+
+---
+
+## ✅ Results
+
+- Achieved an R² Score of **`89%`** with the best model.
+- Random Forest performed better than simple linear regression.
+- Built an interpretable and deployable model for real-world applications.
+
+---
+
+## 📂 Project Structure
+
