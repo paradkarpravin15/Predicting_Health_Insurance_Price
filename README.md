@@ -1,6 +1,6 @@
 # 🏥 Predicting Health Insurance Price
 
-This project aims to predict individual health insurance charges using demographic and health-related features. It uses machine learning techniques to understand and model how various factors influence insurance pricing.
+This project predicts individual health insurance charges based on past demographic and health-related data. It uses a linear regression machine learning model to understand and analyze how various factors influence insurance pricing.
 
 ---
 
@@ -48,12 +48,10 @@ The dataset contains the following features:
    - outlier treatment
    - Encoded categorical variables (`sex`, `smoking_status`, `location`)
    - Handled multicollinearity and feature interactions
-
 4. **Model Building**
    - Linear Regression
    - Decision Tree Regressor
    - Random Forest Regressor
-
 5. **Model Evaluation**
    - R² Score
    - MAE (Mean Absolute Error)
@@ -77,15 +75,6 @@ The dataset contains the following features:
 - Built an interpretable and deployable model for real-world applications.
 
 ---
-
-## 📂 Project Structure
-
-📁 Predicting-Health-Insurance-Price/
-│
-├── 📄 README.md
-├── 📊 Health_insurance_cost_dataset.xlsx
-├── 📓 Insurance_price_prediction.ipynb
-└── 📄 predicting-health-insurance-price.pdf
 
 ## 🔗 Connect with Me
 
